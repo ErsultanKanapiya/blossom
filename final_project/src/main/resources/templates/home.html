@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>FLORAL</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="/static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body>
+    <header th:insert="blocks/header :: header"></header>
+
+    <main>
+
+        <div class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">FLORAL</h1>
+
+                <a href="pricing.html">Price</a>
+                <a href="#">Sign Up</a>
+            </div>
+        </div>
+
+        <div class="site-section">
+            <div class="site-section-inside">
+
+                <div class="section-header">
+                    <h2>Why should you choose us?</h2>
+                </div>
+
+                <div class="feature-box">
+                    <img src="img/like.png" alt="Easy to Use">
+                    <h5>Good Pricing</h5>
+                    <p>One of the cheapest prices in Almaty. Good offers for this list of service! </p>
+                </div>
+
+                <div class="feature-box">
+                    <img src="img/faces.png" alt="Fun to Use">
+                    <h5>Change the mood</h5>
+                    <p>Change her mood with our the freshest flowers!</p>
+                </div>
+
+                <div class="feature-box">
+                    <img src="img/heart.png" alt="Fun to Use">
+                    <h5>Show your love</h5>
+                    <p>Giving flowers - the best way to show your love!</p>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <div th:insert="blocks/footer :: footer"></div>
+
+</body>
+</html>
